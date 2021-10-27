@@ -114,7 +114,8 @@ mapply(add_2, t_data_1, t_data_2)
 - https://jennybc.github.io/purrr-tutorial/
 
 ```{r}
-library(purrr)
+library(tidyverse)
+    
 ```
 
 ### 3.1 map系列

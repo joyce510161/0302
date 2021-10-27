@@ -48,7 +48,7 @@ for (x in nums) {
 ### 3 for loop with if-else
 ```{r}
 
-grades = c(80, 70, 69, 50, 92)
+grades <- c(80, 70, 69, 50, 92)
 
 for (grade in grades) {
   if (grade > 75){
@@ -122,8 +122,8 @@ i <- 1
 while (i < 6) {
   print(i)
   i <- i + 1
-  if (i == 4) {
-    break
+  if (i == 2) {
+    
   }
 }
 

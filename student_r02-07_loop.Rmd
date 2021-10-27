@@ -155,7 +155,22 @@ num_list = c(1, 2, 3, 4, 5, 6)
 
 ```{r}
 apple_price <- c(16, 5, 30, 25, 5, 50, 36, 15, 10, 25)
-
+total_count <- 0
+total_amount <- 0
+for (p in apple_price) {
+  if (p > 15){
+    total_amount = total_amount + p
+    total_count = total_count + 1
+    print(
+      paste0("賣出!此顆價格為:", p,
+             "總賣出個數:", total_count
+             "總賣出金額:", total_amount))
+  }
+  
+  if (total_amount >=150){
+    break
+  }
+}
 ```
 
 ### 練習3 猜數字
